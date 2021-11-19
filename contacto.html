@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hunter Gang</title>
+</head>
+    <link rel="stylesheet" href="css/estilos7.css">
+    <link rel="stylesheet" href="css/estilosAL.css">
+     <body>
+
+      <body>
+        <header class="header">
+            <div class="contenedor">
+                <div class="barra">
+                    <a class="logo " href="Nuevo Index.html">
+                        <img src="img/LOGOOOO1.jpeg" alt="">
+                    </a>
+                </div>
+    
+            </div>
+
+        <form action="enviar.php" method="POST" class="contact-form" onsubmit="return validar(this);"> 				
+            <div class="formulario">
+                        <div class="column">
+                            <h2>Contactate con nosostros</h2> 
+
+                            <label for="nombre"> Nombre <span>(requerido)</span></label>
+                            <input type="text" name="nombre" id="nombre" class="form-input"
+                            onBlur="revisar(this)">
+                            
+                            <label for="email"> Email <span>(requerido)</span></label>
+                            <input type="text" name="email" id="email" class="form-input" onBlur="revisar(this)">
+                            
+                            <label for="asunto">Mensaje <span>(requerido)</span></label>
+                               <textarea name="mensaje" id="mensaje" class="form-input" ></textarea>
+                         
+                             <input   class="form-btn" type="submit" value="Enviar mensaje">
+                              </div>  
+  </form>
+    </body>
+</html>

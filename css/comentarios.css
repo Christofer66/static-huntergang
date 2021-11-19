@@ -1,0 +1,204 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.contenedor{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    background-color: rgb(38, 66, 38);
+    color: white;
+}
+
+.menu img{
+  height: 80px;
+  width: 80px;
+  padding-left: 30px;
+}
+
+.menu h1, i{
+    display: inline-block;
+}
+
+.menu i{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.menu h1{
+    padding-left: 50px;
+}
+
+.message{
+    color: white;
+    text-align: center;
+
+}
+
+.banner{
+  background-image:url(../img/banner1.jpg);
+  height: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.banner-content{
+  background-color: black;
+  color: white;
+  margin: auto;
+  display: table;
+  padding: 10px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.box form{
+    padding: 40px;
+    text-align: left;
+    margin: auto;
+    display: table;
+    background-color: rgb(38, 66, 38);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.box h3, input{
+    padding: 10px;;
+    text-align: left;
+    margin: auto;
+    display: table;
+}
+
+.box .nombre{
+    -moz-appearance: none;
+    outline: 0px none;
+    border-radius: 3px;
+    border: none;
+}
+
+.box textarea{
+    resize: none;
+    -moz-appearance: none;
+    outline: 0px none transparent;
+    font-family: Arial, Helvetica, sans-serif;  
+    border-radius: 5px;
+}
+
+.box .enviar{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+}
+
+.enviar:active{
+    background-color: yellowgreen;
+    color: white;
+}
+
+/* Barra lateral */
+
+
+#check,
+.checkbtn {
+  display: none;
+}
+
+.checkbtn {
+  display: block;
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  font-size: 28px;
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#check:checked ~ div {
+  right: 0;
+}
+
+
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free";
+}
+
+
+.menu .list-container {
+  position: fixed;
+  top: 80px;
+  margin-right: 1px;
+  background: #000000;
+  width: 20%;
+  height: 100vh;
+  right: -100%;
+  transition: right 0.9s;
+  
+}
+
+.menu .list-container .lists {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu .list-container ul li {
+  width: 90%;
+  border-bottom: 2px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.menu .list-container ul li a {
+  font-size: 20px;
+  text-align: center;
+}
+
+.menu .list-container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.menu .list-container a:hover{
+    background-color: yellowgreen;
+    color: black;
+    padding: 0 20px 0 20px;
+    font-weight: bold;
+}
+
+.formulario .error {
+  display: none;
+  margin-top: 20px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+
+.footer {
+  background-image: url(../img/banner1.jpg);;
+  padding: 50px;
+  margin: auto;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+footer i{
+  border-radius: 5px;
+}
+
+footer a{
+  text-decoration: none;
+}
